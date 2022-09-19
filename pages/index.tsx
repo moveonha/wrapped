@@ -110,7 +110,7 @@ export default function Home({ hostUser }) {
 
       <Script
         data-website-id={process.env.NEXT_PUBLIC_UMAMI_ID}
-        src="https://neat-analytics.up.railway.app/umami.js"
+        src="https://umami.neat.run/umami.js"
       />
 
       <Footer />

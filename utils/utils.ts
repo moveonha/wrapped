@@ -60,8 +60,8 @@ export async function getHighlights() {
   const payload = await apollo.query({
     query: USER_HIGHLIGHTS,
     variables: {
-      start: Constants.DATES.JAN2021,
-      end: Constants.DATES.DEC2021,
+      start: Constants.DATES.JAN2022,
+      end: Constants.DATES.DEC2022,
     },
   });
 
@@ -90,8 +90,8 @@ export async function getTopLanguages(): Promise<Language[]> {
   const payload = await apollo.query({
     query: TOP_LANGUAGES,
     variables: {
-      start: Constants.DATES.JAN2021,
-      end: Constants.DATES.DEC2021,
+      start: Constants.DATES.JAN2022,
+      end: Constants.DATES.DEC2022,
     },
   });
 
@@ -206,8 +206,8 @@ export async function getContributionHistory() {
   const payload = await apollo.query({
     query: CONTRIBUTIONS,
     variables: {
-      start: Constants.DATES.JAN2021,
-      end: Constants.DATES.DEC2021,
+      start: Constants.DATES.JAN2022,
+      end: Constants.DATES.DEC2022,
     },
   });
 

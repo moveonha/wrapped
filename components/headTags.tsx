@@ -42,7 +42,7 @@ function HeadTags({ user }) {
         property="og:description"
         content={`${
           user && user.fullName
-            ? `${user.fullName} coded a lot in 2021. See your own stats:`
+            ? `${user.fullName} coded a lot in 2022. See your own stats:`
             : "Dive into analytics of your year as a developer:"
         } total commits, top repositories, and favourite languages.`}
       />
